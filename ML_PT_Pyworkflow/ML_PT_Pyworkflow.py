@@ -450,24 +450,24 @@ def max_perc(x):
     84-th percentile.
 
     Args:
-        x (np.array): Array to define 84-th percentile.
+        x (np.array): Array to define 97.5-th percentile.
 
     Returns:
         np.array (1D) 
     """
-    return(np.percentile(x,84))
+    return(np.percentile(x,97.5))
 
 def min_perc(x):
     """
     16-th percentile.
 
     Args:
-        x (np.array): Array to define 16-th percentile.
+        x (np.array): Array to define 2.5-th percentile.
 
     Returns:
         np.array (1D) 
     """
-    return(np.percentile(x,16))
+    return(np.percentile(x,2.5))
 
 
 
